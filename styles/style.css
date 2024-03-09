@@ -1,15 +1,9 @@
-<<<<<<< HEAD
 .abel-regular {
   font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-=======
-body {
-    font-family: "Abel", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  
->>>>>>> 5b6ebf6dfeff06f3ef33e2d55d805f3f9c22bacd
+.bg-red {
+  background: #F94E56;;
+}
