@@ -1,3 +1,3 @@
 # Hacakthon app - Group 5
 
-An app that uses student deadlines to help them prioritze their task and reduce stress.
+Our team is making an app that uses calendars and lists to help students prioritze their deadlines and tasks, inevitably reducing stress.
