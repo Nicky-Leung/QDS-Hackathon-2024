@@ -7,6 +7,9 @@ loadtemplate = function() {
     $('#workoutcard').load('./templates/healthcards/workoutcard.html');
     $('#sleepcard').load('./templates/healthcards/sleepcard.html');
     $('#assignmentcard').load('./templates/healthcards/assignmentcard.html');
+
+
+    $('#workloadcard').load('./templates/workloadcard.html');
     $('#footer').load('./templates/footer.html');
 
 
