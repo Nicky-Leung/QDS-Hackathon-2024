@@ -51,7 +51,7 @@ function animateFillBarGreen() {
     
 
     // Update the width of the fill bar
-    fillWidth += 3;
+    fillWidth += 1;
 
     // If the fill bar has filled the whole canvas, stop the animation
     if (fillWidth > canvas.width) {
@@ -94,7 +94,7 @@ function animateFillBarRed() {
     
 
     // Update the width of the fill bar
-    fillWidth += 3;
+    fillWidth += 1;
 
     // If the fill bar has filled the whole canvas, stop the animation
     if (fillWidth > canvas.width) {
@@ -137,7 +137,7 @@ function animateFillBarYellow() {
     
 
     // Update the width of the fill bar
-    fillWidth += 2;
+    fillWidth += 1;
 
     // If the fill bar has filled the whole canvas, stop the animation
     if (fillWidth > canvas.width) {
@@ -145,7 +145,7 @@ function animateFillBarYellow() {
     }
 
     // Call the animateFillBar function again after the browser finishes the current frame
-    if (fillWidth< 60) { 
+    if (fillWidth< 90) { 
     requestAnimationFrame(animateFillBarYellow);
 
     }
