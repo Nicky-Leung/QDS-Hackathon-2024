@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<div class="container p-3 pt-4 pb-5 ">
+    <button class="" style="color: #4ABFD3;">
+        Mark All as Read
+    </button>
+
+    <!--This is a unread notification-->
+    <div class="relative border mt-3 p-3 rounded-xl" style="background-color: #D6F2F7;">
+        <div
+            class="absolute bottom-auto left-auto right-0 top-0 z-10 inline-block -translate-y-1/2 translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 rounded-full bg-red-600 p-2.5 text-xs">
+        </div>
+        <div class="flex">
+            <p style="color: #F94E56;">Reminder: COMP 2152 Group Project Assignment
+                Due on Today 12.00 pm.</p>
+        </div>
+    </div>
+
+    <!--This is a normal notification card-->
+    <div class="relative border mt-3 p-3 rounded-xl" style="background-color: #D6F2F7;">
+        <div class="flex">
+            <p style="color: #000000;">Congratulations! <br>
+                You have completed 3 workouts this week</p>
+        </div>
+    </div>
+    <div class="relative border mt-3 p-3 rounded-xl" style="background-color: #D6F2F7;">
+        <div class="due-ite flex">
+            <p style="color: #000000;">Daily Summary: 1200ml water, 3 meals and 5 hours sleep. Try to sleep more! </p>
+        </div>
+    </div>
+    <div class="relative border mt-3 p-3 rounded-xl" style="background-color: #D6F2F7;">
+        <div class="due-ite flex">
+            <p style="color: #000000;">I saw you felt sad...What happened? Do you want to talk with your friends? Are
+                you ok? If you want to talk, you can click here for CONFIDENTIAL counselling services.</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="./scripts/overview.js"></script>
+<script src="./scripts/skeleton.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+</html>
