@@ -10,6 +10,7 @@ loadtemplate = function() {
 
 
     $('#workloadcard').load('./templates/workloadcard.html');
+    $('#emotioncard').load('./templates/emotioncard.html');
     $('#footer').load('./templates/footer.html');
 
 
