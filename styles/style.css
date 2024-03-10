@@ -1,9 +1,192 @@
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: "Abel", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
-<<<<<<< HEAD
-=======
+  margin: 0;
+  padding: 0;
+}
+
+/* workout grid layout. */
+.workout {
+  flex-wrap: wrap;
+  flex: 200px;
+}
+
+/* For Login and Add Calendar page. */
+#topbar {
+  width: 100%;
+  height: 10vh;
+  overflow: hidden;
+}
+
+#title {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: left;
+  align-items: center;
+  margin-top: 5vw;
+  margin-left: 2.5vw;
+}
+
+.input_wrap {
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #F8F6ED;
->>>>>>> c00aa694dced400ef7d4761af77a8ee0d50c123f
+  overflow: hidden;
+
+}
+
+.input_wrap>input {
+  display: none;
+}
+
+.login_template {
+  width: 100%;
+  height: fit-content;
+  border: none;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_template input {
+  width: 80%;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #041B15;
+  margin-top: 10px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=url] {
+  background-color: #F8F6ED;
+}
+
+#login_submit,
+#signup_submit,
+#forget_submit {
+  height: fit-content;
+  padding: 10px 0;
+  border: 1px solid #041B15;
+  border-radius: 50px;
+  background-color: #FEB734;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login_signup {
+  width: 100%;
+  font-size: 14px;
+  color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login_forget {
+  width: 100%;
+  font-size: 14px;
+  color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#login_forget {
+  width: 100%;
+  height: 50%;
+  margin-top: 2.5vh;
+  margin-right: 20vw;
+  margin-bottom: 2.5vh;
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#login_signup {
+  width: 100%;
+  height: 50%;
+  margin-top: 2.5vh;
+  margin-left: 0;
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label b {
+  color: #4ABFD3;
+  text-align: right;
+}
+
+
+#tab_1:checked~#login {
+  display: flex;
+}
+
+#tab_1:checked~#signup {
+  display: none;
+}
+
+#tab_1:checked~#forget {
+  display: none;
+}
+
+
+#tab_2:checked~#signup {
+  display: flex;
+}
+
+#tab_2:checked~#login {
+  display: none;
+}
+
+#tab_2:checked~#forget {
+  display: none;
+}
+
+
+#tab_3:checked~#forget {
+  display: flex;
+}
+
+#tab_3:checked~#login {
+  display: none;
+}
+
+#tab_3:checked~#signup {
+  display: none;
+}
+
+b {
+  margin-left: 8px;
+}
+
+#navbar {
+  width: 100%;
+  height: 10vh;
+  overflow: hidden;
 }
