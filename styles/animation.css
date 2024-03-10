@@ -1,7 +1,6 @@
 @keyframes calendarshift {
     0% {
-        transform: translateY(-200%);
-        visibility: hidden;
+        transform: translateY(-100%);
     }
 
     100% {
@@ -12,7 +11,7 @@
 
 @keyframes taskshift {
     0% {
-        transform: translateY(100%);
+        transform: translateY(200%);
     }
 
 
@@ -29,7 +28,103 @@
 
 }
 
-#tasks {
+@keyframes taskshift1 {
+    0% {
+        transform: translatex(-150%);
+    }
+
+
+    66% {
+        transform: translatex(-100%);
+    }
+
+
+    100% {
+        
+        transform: translatex(0);
+    }
+
+
+}
+
+
+@keyframes taskshift2 {
+    0% {
+        transform: translatex(150%);
+    }
+
+
+    66% {
+        transform: translatex(100%);
+    }
+
+
+    100% {
+        
+        transform: translatex(0);
+    }
+
+
+}
+
+@keyframes taskshift3 {
+    0% {
+        transform: translatex(-150%);
+    }
+
+
+    80% {
+        transform: translatex(-100%);
+    }
+
+
+    100% {
+        
+        transform: translatex(0);
+    }
+
+
+}
+
+@keyframes taskshift4 {
+    0% {
+        transform: translatex(150%);
+    }
+
+
+    83% {
+        transform: translatex(100%);
+    }
+
+
+    100% {
+        
+        transform: translatex(0);
+    }
+
+
+}
+
+@keyframes taskshift5 {
+    0% {
+        transform: translatex(-150%);
+    }
+
+
+    86% {
+        transform: translatex(-100%);
+    }
+
+
+    100% {
+        
+        transform: translatex(0);
+    }
+
+
+}
+
+#task {
     animation: 0s ease-in 0s 1 taskshift;
     animation-duration: 0.5s;
     animation-fill-mode: none, forwards;
@@ -41,3 +136,32 @@ article {
     animation-fill-mode: none, forwards;
 }
 
+.task1 {
+    animation: 0s ease-in 0s 1 taskshift1;
+    animation-duration: 0.75s;
+    animation-fill-mode: none, forwards;
+}
+
+.task2 {
+    animation: 0s ease-in 0s 1 taskshift2;
+    animation-duration: 1s;
+    animation-fill-mode: none, forwards;
+}
+
+.task3 {
+    animation: 0s ease-in 0s 1 taskshift3;
+    animation-duration: 1.25s;
+    animation-fill-mode: none, forwards;
+}
+
+.task4 {
+    animation: 0s ease-in 0s 1 taskshift4;
+    animation-duration: 1.5s;
+    animation-fill-mode: none, forwards;
+}
+
+.task5 {
+    animation: 0s ease-in 0s 1 taskshift5;
+    animation-duration: 1.75s;
+    animation-fill-mode: none, forwards;
+}
