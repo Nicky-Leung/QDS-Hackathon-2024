@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login page</title>
+
+  <link rel="stylesheet" href="../styles/style.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header id="topbar"></header>
+  <div class="input_wrap">
+        <input type="radio" id="tab_1" name="tab" checked />
+        <input type="radio" id="tab_2" name="tab" />
+        <input type="radio" id="tab_3" name="tab" />
+
+        <div>
+            <p id="title">Reduce Stress <br>
+            Manage Your Deadline and Health</p>
+        </div>
+          
+        <fieldset class="login_template" id="login">
+            <input type="email" id="login_email" name="email" placeholder="Email" required="required" />
+            <input type="password" id="login_password" name="password" placeholder="Password" required="required" />
+            <input type="hidden" id="login_session" name="session" value="" />
+            <label id="login_forget" for="tab_3" id="forget"><b>Forgot Password?</b></label>
+            <input type="submit" id="login_submit" name="submit" value="Login" onclick="window.location.href = 'addcalendar.html';" />
+            <label id="login_signup" for="tab_2" id="signup">Didn't Joined yet? <b>Sign up</b></label>
+        </fieldset>
+
+        <fieldset class="login_template" id="signup">
+            <input type="text" id="signup_name" name="name" placeholder="Name" required="required" />
+            <input type="email" id="signup_email" name="email" placeholder="Email" required="required" />
+            <input type="password" id="signup_pwd" name="password" placeholder="Password" required="required" />
+            <input type="hidden" id="signup_session" name="session" value="" />
+            <input type="submit" id="signup_submit" name="submit" value="Sign up" onclick="window.location.href = 'login.html';" />
+        </fieldset>
+
+        <fieldset class="login_template" id="forget">
+            <input type="email" id="forget_email" name="email" placeholder="Email" required="required" />
+            <input type="hidden" id="forget_session" name="session" value="" />
+            <input type="submit" id="forget_submit" name="submit" value="Reset the password" onclick="window.location.href = 'login.html';" />
+        </fieldset>
+    </div>
+    <footer id="navbar"></footer>
+</body>
+
+</html>
