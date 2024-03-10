@@ -19,10 +19,13 @@ body {
 }
 
 /* workout grid layout. */
-.workout {
-  flex-wrap: wrap;
-  flex: 200px;
+.workouttext {
+  display: grid;
+  grid-template-areas:
+    "h1 workoutpic"
+    "p workoutpic"
 }
+
 
 /* For Login and Add Calendar page. */
 #topbar {
