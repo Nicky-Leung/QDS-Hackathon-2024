@@ -31,13 +31,13 @@
 
 #tasks {
     animation: 0s ease-in 0s 1 taskshift;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: none, forwards;
 }
 
 article {
     animation: 0s ease-in 0s 1 calendarshift;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: none, forwards;
 }
 
