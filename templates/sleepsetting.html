@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleeping Goal Setting</title>
+
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/goalsetting.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header id="topbar"></header>
+    <div class="wrap">
+        <fieldset class="setting_template" id="login">
+            <p id="goal_title">Health Goal Setting</p>
+            <label for="watergoal">Sleeping Time Goal:</label>
+            <input type="number" id="watergoal" name="waterdrinkinggoal" value="7.5"/>
+            <label for="remind">Remind Schedule:</label>
+            <select name="remind" id="remind">
+                <option value="one">Every one hour</option>
+                <option value="two">Every two hours</option>
+                <option value="four">Every four hours</option>
+                <option value="six">Every six hours</option>
+            </select>
+            <div class="buttoncontainer">
+                <input type="submit" id="back" name="next" value="< Back" onclick="window.location.href = 'watersetting.html';" /> 
+                <input type="submit" id="next" name="next" value="Next >" onclick="window.location.href = '';" />
+            </div>
+        </fieldset>
+    </div>
+    <footer id="navbar"></footer>
+</body>
+
+</html>
