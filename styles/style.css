@@ -12,6 +12,12 @@ body {
   padding: 0;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* workout grid layout. */
 .workout {
   flex-wrap: wrap;
@@ -22,7 +28,7 @@ body {
 #topbar {
   width: 100%;
   height: 10vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #title {
@@ -45,7 +51,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #F8F6ED;
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -188,7 +194,7 @@ b {
 #navbar {
   width: 100%;
   height: 10vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .avatar {
