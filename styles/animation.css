@@ -50,12 +50,12 @@
 
 @keyframes taskshift2 {
     0% {
-        transform: translatex(150%);
+        transform: translatex(-150%);
     }
 
 
     66% {
-        transform: translatex(100%);
+        transform: translatex(-100%);
     }
 
 
@@ -88,12 +88,12 @@
 
 @keyframes taskshift4 {
     0% {
-        transform: translatex(150%);
+        transform: translatex(-150%);
     }
 
 
     83% {
-        transform: translatex(100%);
+        transform: translatex(-100%);
     }
 
 
@@ -126,12 +126,12 @@
 
 @keyframes taskshift6 {
     0% {
-        transform: translatex(150%);
+        transform: translatex(-150%);
     }
 
 
     87.5% {
-        transform: translatex(100%);
+        transform: translatex(-100%);
     }
 
 
