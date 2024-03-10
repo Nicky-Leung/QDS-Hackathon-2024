@@ -1,0 +1,113 @@
+#topbar {
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+}
+
+#goal_title {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.wrap {
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+    overflow: hidden;
+       
+}
+
+.wrap>input {
+    display: none;
+}
+
+.setting_template {
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.setting_template input {
+    width: 90%;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+}
+
+#remind {
+    width: 90%;
+    height: 30px;
+    background-color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+}
+
+.buttoncontainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#back {
+    width: 100px;
+    background-color: #0033FF;
+    border: 1px solid #0033FF;
+    border-radius: 30px;
+    margin-right: auto;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#next {
+    width: 100px;
+    background-color: #0033FF;
+    border: 1px solid #0033FF;
+    border-radius: 30px;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#nextwater {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+    background-color: #0033FF;
+    border: 1px solid #0033FF;
+    border-radius: 30px;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar {
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+}
