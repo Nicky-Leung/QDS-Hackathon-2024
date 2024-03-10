@@ -4,39 +4,48 @@
     <div class="mr-3 ml-3 mt-3 rounded-xl p-2" style="background-color: #FEB734 ;">
         <h1>Mood this week</h1>
 
-        <div class="flex justify-between mt-2 bg-white h-10 rounded-xl " >
-
+        <div class="flex mt-2 bg-white h-10 rounded-xl " >
+           
                <canvas id="emotion" width="1300" height="100" style="position:relative" ></canvas> 
-            <div class="flex justify-between item-center" style="position:absolute">
+        
+        
+        </div>
+        <div class="flex justify-between item-center" style="position:absolute; bottom :51vw">
+            <div class="flex justify-start">
                 <img class = "mr-3" src="../images/grinning-face.svg" alt="">
                 <p>Happy</p>
-                <p>2/7</p>
-                
-              
             </div>
-
-            
         </div>
+            
+            <div style="position: absolute; right:40px; bottom:60vw">
+                <p>1/7</p>
+            </div>
+            
+          
+       
 
         <div class="flex justify-between mt-2 bg-white h-10 rounded-xl " >
-            <div class="flex justify-start item-center">
+
+            <canvas id="emotionb" width="1300" height="100" style="position:relative" ></canvas> 
+            <div class="flex justify-start item-center" style="position:absolute">
                 <img class = "mr-3" src="../images/downcast-face-with-sweat.svg" alt="">
                 <p>Sad</p>
             </div>
 
-            <div class="mr-3">
+            <div class="mr-3" style="position:absolute; bottom:49vw; right:30px;">
                 <p>2/7</p>
             </div>
         </div>
 
-        <div class="flex justify-between mt-2 bg-white h-10 rounded-xl p-1" >
-            <div class="flex justify-start item-center">
+        <div class="flex justify-between mt-2 bg-white h-10 rounded-xl " >
+            <canvas id="emotionr" width="1300" height="100" style="position:relative" ></canvas> 
+            <div class="flex justify-start item-center" style="position: absolute;">
                 <img class = "mr-3" src="../images/face-with-steam-from-nose.svg" alt="">
                 <p>Angry</p>
             </div>
 
-            <div class="mr-3">
-                <p>3/7</p>
+            <div class="mr-3" style="position: absolute; bottom:38vw; right:30px">
+                <p>4/7</p>
             </div>
         </div>
 
@@ -47,7 +56,8 @@
     </div>
 
    
-    <script src="https://cdn.tailwindcss.com"></script>    
-    <script src = "../scripts/emotion.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <script src="../scripts/emotion.js"></script>  
+    
 </body>
 </html>

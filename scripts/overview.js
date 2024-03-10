@@ -18,5 +18,6 @@ loadtemplate = function() {
 
 }
 
+// Get a reference to the canvas element
 
 document.readyState(loadtemplate())

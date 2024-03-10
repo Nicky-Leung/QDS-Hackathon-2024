@@ -1,4 +1,6 @@
-let fillWidth = 0;
+let fillWidth2 = 0;
+let fillWidth3 = 0;
+let fillWidth4 = 0;
 
 function roundRect(ctx, x, y, width, height, radius) {
     ctx.beginPath();
@@ -15,18 +17,9 @@ function roundRect(ctx, x, y, width, height, radius) {
     ctx.fill();
 }
 
-function drawbarElement () {
-    const canvas = document.getElementById('emotion');
-    const ctx = canvas.getContext('2d');
-    ctx.globalAlpha = 1;
-    const img = new Image();
-    img.src = "../images/grinning-face.svg";
-    img, onload = function() {
-        ctx.drawImage(img, 0, 0);
-    }
-}
 
-function animateFillBarGreen() {
+function drawfillgreen() {
+   
 
 
     const canvas = document.getElementById('emotion');
@@ -38,23 +31,87 @@ function animateFillBarGreen() {
     // Draw the fill bar
 
     ctx.fillStyle = '#5DC080'; // green color
-    ctx.globalAlpha = 0.5;
-    roundRect(ctx, 0, 0, fillWidth, canvas.height, 5);
+    ctx.globalAlpha = 1;
+    roundRect(ctx, 0, 0, fillWidth2, canvas.height, 5);
     
     
 
     // Update the width of the fill bar
-    fillWidth += 7;
+    fillWidth2 += 7;
 
     // If the fill bar has filled the whole canvas, stop the animation
-    if (fillWidth > canvas.width) {
+    if (fillWidth2 > canvas.width) {
         return;
     }
 
     // Call the animateFillBar function again after the browser finishes the current frame
-    if (fillWidth< 500) { 
-        requestAnimationFrame(animateFillBarGreen);
+    if (fillWidth2< 250) { 
+        requestAnimationFrame(drawfillgreen);
 
     }
 }
-animateFillBarGreen();
+function drawfillblue() {
+
+
+    const canvas = document.getElementById('emotionb');
+    const ctx = canvas.getContext('2d');
+    
+    // Clear the canvas
+    
+
+    // Draw the fill bar
+
+    ctx.fillStyle = '#4ABFD3'; // green color
+    ctx.globalAlpha = 1;
+    roundRect(ctx, 0, 0, fillWidth3, canvas.height, 5);
+    
+    
+
+    // Update the width of the fill bar
+    fillWidth3 += 7;
+
+    // If the fill bar has filled the whole canvas, stop the animation
+    if (fillWidth3 > canvas.width) {
+        return;
+    }
+
+    // Call the animateFillBar function again after the browser finishes the current frame
+    if (fillWidth3< 400) { 
+        requestAnimationFrame(drawfillblue);
+
+    }
+}
+function drawfillred() {
+
+
+    const canvas = document.getElementById('emotionr');
+    const ctx = canvas.getContext('2d');
+    
+    // Clear the canvas
+    
+
+    // Draw the fill bar
+
+    ctx.fillStyle = '#F94E56'; // green color
+    ctx.globalAlpha = 1;;
+    roundRect(ctx, 0, 0, fillWidth4, canvas.height, 5);
+    
+    
+
+    // Update the width of the fill bar
+    fillWidth4 += 7;
+
+    // If the fill bar has filled the whole canvas, stop the animation
+    if (fillWidth4 > canvas.width) {
+        return;
+    }
+
+    // Call the animateFillBar function again after the browser finishes the current frame
+    if (fillWidth4< 700) { 
+        requestAnimationFrame(drawfillred);
+
+    }
+}
+drawfillgreen();
+drawfillblue();
+drawfillred();
