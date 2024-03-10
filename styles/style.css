@@ -190,3 +190,9 @@ b {
   height: 10vh;
   overflow: hidden;
 }
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
