@@ -2,9 +2,15 @@ body {
   font-family: "Abel", sans-serif;
   font-weight: 600;
   font-style: normal;
-  background-color: ;
+  /* background-color: ; */
 }
 
 .bg-red {
-  background: #F94E56;;
+  background: #F94E56;
+  ;
+}
+
+.workout {
+  flex-wrap: wrap;
+  flex: 200px;
 }
