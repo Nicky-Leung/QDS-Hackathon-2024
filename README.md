@@ -1,6 +1,6 @@
 # TimeMaster
 
-<img src="images/Screenshot.png" height="400">
+<img src="images/Screenshot.png" >
 
 ## About 
 Our team is making an app that uses calendars and lists to help students prioritze their deadlines and tasks, inevitably reducing stress.
